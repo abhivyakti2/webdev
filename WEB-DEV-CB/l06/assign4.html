@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+         .container{
+            display: flex;
+            background-color: rgb(240, 240, 240);
+            height: 45vh;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;       
+         }
+         div{
+            align-self: center;
+         }
+         .div{
+            background-color: rgb(255, 255, 255);
+            justify-items: center;
+            align-items: center;
+            margin-top: 10px ;
+            margin-bottom: 10px ;
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+         img{
+            border-radius: 5px;
+         }
+         .title{
+            font-weight: 750;
+            font-size: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+         .desc{
+            padding-top: 5px ;
+            padding-bottom: 3px;
+            font-size: 8px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(50, 50, 50);
+         }
+         .header{
+            display: flex;
+            height: 40px;
+            align-items: center;
+justify-content: center;            background-color: rgb(59, 59, 59);
+            color: rgb(255, 255, 255);
+         }
+    </style>
+</head>
+<body>
+    <div class="header" >FlexBox Card Layout</div>
+
+    <div class="container">
+        
+        <div class="div"> <img src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Girl looking at flowers" height="80px" width="110px"><div class="title">Card Title 1</div><div class="desc">Short description for card 1</div></div>
+        <div class="div"> <img src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Girl looking at flowers" height="80px" width="110px"><div class="title">Card Title 2</div><div class="desc">Short description for card 2</div></div>
+        <div class="div"> <img src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Girl looking at flowers" height="80px" width="110px"><div class="title">Card Title 3</div><div class="desc">Short description for card 3</div></div>
+        <div class="div"> <img src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Girl looking at flowers" height="80px" width="110px"><div class="title">Card Title 4</div><div class="desc">Short description for card 4</div></div>
+       
+    </div>
+</body>
+</html>
