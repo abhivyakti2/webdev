@@ -3,6 +3,16 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+.page{
+    padding: 9px 6px 0 0;
+    height: 97vh;
+    margin: auto;
+    width: 77%;
+    background-color: rgba(250, 250, 250, 1);
+
+}
+
+                                                   /* NAV CSS */
 
 .logo-name{
     display: flex;
@@ -38,24 +48,25 @@ nav svg{
     height: 100%;
     margin: 0;
 }
-.page{
-    padding: 9px 6px 0 0;
-    height: 100vh;
-    margin: auto;
-    width: 80%;
-    background-color: rgba(250, 250, 250, 1);
 
-}
+
+                                                      /* CARD LAYER 1 */
+
 .card1-4{
-    margin: 10px 0px 0 6px;
-    height: 82px;
-    background-color: antiquewhite;
+    margin: 10px -22px 0 6px;
+    height: 78px;
+    /* background-color: antiquewhite; */
     display: flex;
     gap: 5px;
 }
+
+                                                           /* CARD */
 .card{
     background-color: rgba(255, 255, 255, 1);
-    padding: 5px 7px 5px 7px;
+    padding-top: 4px; 
+    padding-right: 7px;
+    padding-left: 7px;
+    /* padding-bottom: -10px; */
     width: 21%;
     border: 0.5px solid rgba(234, 236, 240, 1);
     border-radius: 4px;
@@ -65,7 +76,7 @@ nav svg{
     justify-content: space-between;
     font-size: 6px;
     font-weight: 600;
-
+    margin-bottom: 2px;
 }
 .cardlogo{
    display: flex;
@@ -80,7 +91,20 @@ nav svg{
    text-align: center;
    gap: 1px;
 }
-.percentage p{
+.percentage-1{
+    color: rgba(252, 84, 82, 1);
+    font-weight: 600;
+}
+.percentage-2{
+    color:rgba(29, 191, 115, 1);
+    font-weight: 600;
+}.percentage-1{
+    color: rgba(252, 84, 82, 1);
+    font-weight: 600;
+}.percentage-1{
+    color: rgba(252, 84, 82, 1);
+    font-weight: 600;
+}.percentage-1{
     color: rgba(252, 84, 82, 1);
     font-weight: 600;
 }
@@ -90,43 +114,211 @@ nav svg{
     border-radius: 2px;
 }
 .bargraph{
-    height: 28px;
+    height: 32px;
     display: flex;
-    gap: 1px;
+    gap: 0.6px;
 align-items: end;    
-padding-bottom: 1px;
-    border-bottom: 1px solid rgba(233, 233, 233, 1);
+padding-bottom: 0.8px;
+    border-bottom: 0.5px solid rgba(233, 233, 233, 1);
+    /* border: 0.5px solid rgba(233, 233, 233, 1); */
 }
 .scale{
     display: flex;
 gap: 23px;
 justify-content: center;
-    font-size: 3.5px;
+padding-top: 3px;    
+font-size: 3.5px;
     color: rgba(135, 135, 135, 1);
-}
-.tag-group{
-    display: flex;
-    gap: 1px;
-
+    margin-bottom: -5px;
+    /* border: 0.5px solid rgba(233, 233, 233, 1); */
     
 }
-.lower-rect{
-    height: 250px;
-    border: 1px solid black;
-
+.tag-group {
+    position: relative;
+    /* display: flex; */
+    /* gap: 1px; */
+ 
 }
+.tag-group svg{
+    position: absolute;
+    left: -0.6px;
+    bottom: 21px; /* Moves it slightly up to overlap bars */
+    z-index: 1;
+    /* display: flex; */
+    /* gap: 1px; */
+ 
+}
+.tag-bars{
+    display: flex;
+    gap: 1px;
+    align-items: end;
+    position: relative;
+}
+
+                                                          /* CARD LAYER ONE DONE
+                                                          LOWER AREA */
+
+
+
+.lower-rect{
+    padding: 5px 4px 5px 5px;
+
+    margin: 5px;
+    height: 232px;
+    border: 1px solid black;
+    display: flex;
+    gap: 5px;
+    margin: 5px -6px 10px 0px;
+}
+
+
+
+                                                       /* LOWER LEFT */
 .left-box{
     height: 100%;
-    width: 68%;
-    border-radius: 4px;
-    border: 0.5px solid rgba(234, 236, 240, 1);
+    width: 66%;
+    border-radius: 6px;
+    /* border: 0.5px solid rgba(234, 236, 240, 1); */
+
+}  
+                                                       /* CARDS 5-7  */
+                                                       
+                                                       
+.cards5-7{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
 
 }
+.cards5-7 .card{
+    width: 28.6%;
+    height: 95px;
+    border-radius: 5px;
+}
+.cards5-7 .bar{
+    width: 3px;
+}
+.cards5-7 .scale{
+    gap: 15px;
+
+}
+
+                                                         /* INCOME Lower LEFT*/
+
+.income{
+    /* margin: 5px; */
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    /* border: 0.5px solid rgba(234, 236, 240, 1); */
+}
+.income nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 6px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-right: -6px;
+}
+.checkboxes{
+    margin-left: 1px;
+    margin-top: 3px;
+    display: flex;
+    font-size: 4px;
+    font-weight: 600;
+    gap: 2px;
+}
+.graphical{
+    margin-top: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+.rect{
+    width: 65px;
+    border-radius: 2px;
+    /* border: 0.5px solid rgba(234, 236, 240, 1); */
+    background-color: rgba(239, 239, 239, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+}
+.months{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    gap: 34.5px;
+    font-size: 4.5px;
+    color: rgba(135, 135, 135, 1);
+    /* font-size: 5px; */
+}
+/* .months div{
+    font-size: 1px;
+
+} */
+.divider{
+    width: 0.5px;
+    height: 5px;
+    background-color: rgba(175, 175, 175, 1);
+
+}
+
+
+                                                  /* LOWER RIGHT */
 .right-box{
-    height: 100%;
-    width: 36%;
+    /* height: 100%; */
+    width: 30%;
     border-radius: 4px;
     border: 0.5px solid rgba(234, 236, 240, 1);
-
+    padding:7px 8px 5px 7px ;
+    background-color: rgba(255, 255, 255, 1);
+}
+.right-box nav{
+    height: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 6px;
+    font-weight: 600;
+    /* border: 0.5px solid rgba(234, 236, 240, 1); */
+    /* margin-right:-4.5px; */
+    border-bottom: 0.5px solid rgba(233, 233, 233, 1);
+    padding-bottom: 7px;
+}
+.right-box .rows{
+    display: flex;
+    padding: 4.5px 7px 4.5px 7px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgba(233, 233, 233, 1);
 
 }
+.textual{
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    gap: 3px;
+
+}
+.card-number{
+    font-weight: 500;
+}
+.entry{
+    font-size: 4.5px;
+    font-weight: 400;
+
+}
+.amount{
+    /* border: 0.5px solid rgba(234, 236, 240, 1); */
+    /* justify-content: center; */
+    align-content: center;
+    font-size: 5px;
+    color: rgba(7, 148, 85, 1);
+    font-weight: 600;
+}
+.checkout-icon{
+    display: flex;
+    gap: 2px;
+align-items: center;}
+
