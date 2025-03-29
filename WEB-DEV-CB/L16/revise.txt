@@ -1,0 +1,2 @@
+classes makes function? typeOf gives function
+private data mem use in constructor?
