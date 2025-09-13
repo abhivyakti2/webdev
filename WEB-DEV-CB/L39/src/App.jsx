@@ -38,8 +38,7 @@ export default function App() {
     <dataContext.Provider value={10}>
       <Child></Child>
       <Parent></Parent>
-    </dataContext.Provider>
-      
+    </dataContext.Provider> 
     </>
   )
 }
